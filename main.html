@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The house of the horror movies</title>
+    <link rel="shortcut icon" href="https://icons.veryicon.com/png/128/movie--tv/classic-characters-in-horror-movies/horror-movie-the-shock-of-chainsaw.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Arima:wght@100..700&family=Creepster&family=Darker+Grotesque:wght@300..900&family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Rubik+Glitch+Pop&family=Shadows+Into+Light&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><img src="https://i.pinimg.com/564x/7e/3e/a0/7e3ea0606872511fc096a514b1d4e9ad.jpg" alt="logo-horror-friends"></li>
+            <li><h1>the house of the horror movies</h1></li>
+            <li><img class="buttonAdd" src="https://i.pinimg.com/564x/ac/55/c9/ac55c9da9870b0ad490497ea29f96540.jpg" alt=""></li>
+        </ul>
+    </header>
+    <main data-lista>
+    </main>
+    <section class="formAdd">
+        <h5>Agrega un nuevo video </h5>
+        <form action="" data-formulario>
+            <label for="titulo">Título de película</label>
+            <input name="titulo" class="campo__escrita" required placeholder="En este campo, pon el nombre del vídeo" id='titulo' data-titulo />
+            <label for="url">Linkea tu película favorita desde YouTube</label>
+            <input name="url" class="campo__escrita" required placeholder="Por ejemplo: https://www.youtube.com/embed/QjOWz9avkg8" id='url' data-url/>
+            <label for="imagen">Agrega tu logo de colaboración</label>
+            <input name="imagen" class="campo__escrita" required placeholder="Inserta la URL de la imagen" id='imagen' data-imagen />
+            <button  type="submit" >Agregar película</button>
+        </form>
+    </section>
+    <footer>
+        <img src="https://i.pinimg.com/564x/b9/25/3c/b9253c4788e7eba834c3c383711cdf6e.jpg" alt="">
+    </footer>
+    <script src="./js/mostrarVideos.js" type="module"></script>
+    <script src="./js/crearVideo.js" type="module"></script>
+</body>
+</html>

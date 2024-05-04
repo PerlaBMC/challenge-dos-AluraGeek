@@ -1,0 +1,19 @@
+{
+  "name": "challenge-alura",
+  "version": "1.0.0",
+  "description": "plataforma de intercambio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "intercambio"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}
